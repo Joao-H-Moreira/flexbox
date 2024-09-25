@@ -5,7 +5,9 @@
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
+    padding: 20px;
     background:rgb(219, 142, 219);
+    height: 5%;
 
 
 }
@@ -14,12 +16,13 @@ nav{
 
 }
 nav ul {
-    
+    color: aliceblue;
     list-style: none; 
     display: flex;
     flex-direction: row;
 }
 nav ul li{
+    
     text-decoration: none;
 }
 
