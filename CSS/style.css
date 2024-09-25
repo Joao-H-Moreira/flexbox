@@ -1,0 +1,479 @@
+.menu{
+    flex-direction: row;
+    font-style: italic;
+    font-size: 2em;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px;
+    background:purple;
+
+
+}
+nav{
+
+}
+nav ul {
+    list-style: none; 
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    text-decoration: none;
+}
+
+
+
+
+.titulo-pagina{
+    text-align: center;
+    font-style: italic;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    margin: 10px;
+}
+
+.nome-da-propriedade{
+    font-size: 2em;
+    font-weight: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    padding: 20px;
+}
+
+.nome-da-propriedade-shorthand{
+    font-size: 2em;
+    font-weight: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    padding: 20px;
+}
+
+.valor-da-propriedade{
+    font-size: 1.5em;
+    font-weight: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 30px;
+    padding-bottom: 5px;
+}
+
+hr{
+    margin: 15px;
+}
+
+.bloco1{
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco2{
+    background-color: lightpink;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco3{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco1-sem-altura{
+    background-color: lightblue;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco2-sem-altura{
+    background-color:  lightpink;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco3-sem-altura{
+    background-color: red;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco1-fontes-diferentes{
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco2-fontes-diferentes{
+    background-color: lightpink;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco3-fontes-diferentes{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.container{
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-row{
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-column{
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: column;
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-row-reverse{
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row-reverse;
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-column-reverse{
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: column-reverse;
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.justify-content-center{ 
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*alinha o conteúdo no eixo principal*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.justify-content-flex-start{ 
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /*alinha o conteúdo no eixo principal*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.justify-content-flex-end{ 
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /*alinha o conteúdo no eixo principal*/
+    
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.justify-content-space-between{ /*medidas de margem, padding e semelhantes afentam a posição*/
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*alinha o conteúdo no eixo principal*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.justify-content-space-around{ /*medidas de margem, padding e semelhantes afentam a posição*/
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /*alinha o conteúdo no eixo principal*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.justify-content-space-evenly{ /*medidas de margem, padding e semelhantes afentam a posição*/
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /*alinha o conteúdo no eixo principal*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.align-items-center{ /*medidas de margem, padding e semelhantes afentam a posição*/
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*alinha o conteúdo no eixo principal*/
+    align-items: center; /*alinha o conteúdo no eixo secundário*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.align-items-flex-start{ /*medidas de margem, padding e semelhantes afentam a posição*/
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*alinha o conteúdo no eixo principal*/
+    align-items: flex-start; /*alinha o conteúdo no eixo secundário*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.align-items-flex-end{ /*medidas de margem, padding e semelhantes afentam a posição*/
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*alinha o conteúdo no eixo principal*/
+    align-items: flex-end; /*alinha o conteúdo no eixo secundário*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.align-items-stretch{ /*medidas de margem, padding e semelhantes afentam a posição*/
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*alinha o conteúdo no eixo principal*/
+    align-items:stretch; /*alinha o conteúdo no eixo secundário*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.align-items-baseline{ /*medidas de margem, padding e semelhantes afentam a posição*/
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*alinha o conteúdo no eixo principal*/
+    align-items: baseline; /*alinha o conteúdo no eixo secundário*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.flex-wrap-nowrap{ /*medidas de margem, padding e semelhantes afentam a posição*/
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*alinha o conteúdo no eixo principal*/
+    align-items: center; /*alinha o conteúdo no eixo secundário*/
+    flex-wrap: nowrap; /*quebra de linha*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.flex-wrap-wrap{ /*medidas de margem, padding e semelhantes afentam a posição*/
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*alinha o conteúdo no eixo principal*/
+    align-items: center; /*alinha o conteúdo no eixo secundário*/
+    flex-wrap: wrap; /*quebra de linha*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.flex-wrap-wrap-reverse{ /*medidas de margem, padding e semelhantes afentam a posição*/
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*alinha o conteúdo no eixo principal*/
+    align-items: center; /*alinha o conteúdo no eixo secundário*/
+    flex-wrap: wrap-reverse; /*quebra de linha*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}  
+
+.flex-flow-row-nowrap{ /*medidas de margem, padding e semelhantes afentam a posição*/
+    /*Comandam o flexbox*/
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: center; /*alinha o conteúdo no eixo principal*/
+    align-items: center; /*alinha o conteúdo no eixo secundário*/
+    /*flex-wrap: nowrap; /*quebra de linha*/
+    flex-flow: row nowrap;
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}  
+
+.align-content-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center; /* Eixo secundário */
+    /* indiferente */
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.align-content-flex-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start; /* Eixo secundário */
+    /* indiferente */
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.align-content-flex-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end; /* Eixo secundário */
+    /* indiferente */
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.align-content-space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between; /* Eixo secundário */
+    /* indiferente */
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.align-content-space-around{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around; /* Eixo secundário */
+    /* indiferente */
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.align-content-space-evenly{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly; /* Eixo secundário */
+    /* indiferente */
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
